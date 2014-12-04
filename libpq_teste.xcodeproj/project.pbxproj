@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF3103701A3003B400D1E26A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF31036F1A3003B400D1E26A /* main.m */; };
+		AF3103771A3003CA00D1E26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3103761A3003CA00D1E26A /* Foundation.framework */; };
+		AF31037D1A30069200D1E26A /* libpq.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF31037C1A30069200D1E26A /* libpq.a */; };
+		AF3103801A307D0300D1E26A /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF31037F1A307D0300D1E26A /* libcrypto.dylib */; };
+		AF3103821A307D0C00D1E26A /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3103811A307D0C00D1E26A /* libssl.dylib */; };
+		AF3103851A307EA600D1E26A /* NSPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3103841A307EA600D1E26A /* NSPrint.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF31036A1A3003B400D1E26A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AF31036C1A3003B400D1E26A /* libpq_teste */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libpq_teste; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF31036F1A3003B400D1E26A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF3103761A3003CA00D1E26A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF3103791A30069200D1E26A /* libpq-fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "libpq-fe.h"; sourceTree = "<group>"; };
+		AF31037A1A30069200D1E26A /* postgres_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = postgres_ext.h; sourceTree = "<group>"; };
+		AF31037C1A30069200D1E26A /* libpq.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpq.a; sourceTree = "<group>"; };
+		AF31037E1A30074B00D1E26A /* pg_config_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pg_config_ext.h; sourceTree = "<group>"; };
+		AF31037F1A307D0300D1E26A /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		AF3103811A307D0C00D1E26A /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		AF3103831A307E5800D1E26A /* NSPrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPrint.h; sourceTree = "<group>"; };
+		AF3103841A307EA600D1E26A /* NSPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPrint.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF3103691A3003B400D1E26A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3103821A307D0C00D1E26A /* libssl.dylib in Frameworks */,
+				AF3103801A307D0300D1E26A /* libcrypto.dylib in Frameworks */,
+				AF31037D1A30069200D1E26A /* libpq.a in Frameworks */,
+				AF3103771A3003CA00D1E26A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF3103631A3003B400D1E26A = {
+			isa = PBXGroup;
+			children = (
+				AF3103811A307D0C00D1E26A /* libssl.dylib */,
+				AF31037F1A307D0300D1E26A /* libcrypto.dylib */,
+				AF3103781A30069200D1E26A /* include */,
+				AF31037B1A30069200D1E26A /* lib */,
+				AF3103761A3003CA00D1E26A /* Foundation.framework */,
+				AF31036E1A3003B400D1E26A /* libpq_teste */,
+				AF31036D1A3003B400D1E26A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF31036D1A3003B400D1E26A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF31036C1A3003B400D1E26A /* libpq_teste */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF31036E1A3003B400D1E26A /* libpq_teste */ = {
+			isa = PBXGroup;
+			children = (
+				AF31036F1A3003B400D1E26A /* main.m */,
+				AF3103831A307E5800D1E26A /* NSPrint.h */,
+				AF3103841A307EA600D1E26A /* NSPrint.m */,
+			);
+			path = libpq_teste;
+			sourceTree = "<group>";
+		};
+		AF3103781A30069200D1E26A /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AF31037E1A30074B00D1E26A /* pg_config_ext.h */,
+				AF3103791A30069200D1E26A /* libpq-fe.h */,
+				AF31037A1A30069200D1E26A /* postgres_ext.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AF31037B1A30069200D1E26A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				AF31037C1A30069200D1E26A /* libpq.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF31036B1A3003B400D1E26A /* libpq_teste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF3103731A3003B400D1E26A /* Build configuration list for PBXNativeTarget "libpq_teste" */;
+			buildPhases = (
+				AF3103681A3003B400D1E26A /* Sources */,
+				AF3103691A3003B400D1E26A /* Frameworks */,
+				AF31036A1A3003B400D1E26A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libpq_teste;
+			productName = libpq_teste;
+			productReference = AF31036C1A3003B400D1E26A /* libpq_teste */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF3103641A3003B400D1E26A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = thiagobrandam;
+				TargetAttributes = {
+					AF31036B1A3003B400D1E26A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = AF3103671A3003B400D1E26A /* Build configuration list for PBXProject "libpq_teste" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF3103631A3003B400D1E26A;
+			productRefGroup = AF31036D1A3003B400D1E26A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF31036B1A3003B400D1E26A /* libpq_teste */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF3103681A3003B400D1E26A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF3103851A307EA600D1E26A /* NSPrint.m in Sources */,
+				AF3103701A3003B400D1E26A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF3103711A3003B400D1E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AF3103721A3003B400D1E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AF3103741A3003B400D1E26A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AF3103751A3003B400D1E26A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF3103671A3003B400D1E26A /* Build configuration list for PBXProject "libpq_teste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3103711A3003B400D1E26A /* Debug */,
+				AF3103721A3003B400D1E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF3103731A3003B400D1E26A /* Build configuration list for PBXNativeTarget "libpq_teste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF3103741A3003B400D1E26A /* Debug */,
+				AF3103751A3003B400D1E26A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF3103641A3003B400D1E26A /* Project object */;
+}
